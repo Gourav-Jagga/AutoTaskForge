@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "recomdnld": "node src/main/djpunjab/recommendedSongsDownload.js"
+    "recomdnld": "node src/main/djpunjab/recommendedSongsDownload.js",
+    "djjhol": "node src/main/djjhol/dwn.js"
   },
   "repository": {
     "type": "git",

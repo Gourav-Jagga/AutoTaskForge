@@ -12,7 +12,7 @@ export async function downloadFileToDir(url, dir, fileName = null) {
     });
 
     let finalName =
-      fileName || `file_${Date.now()}.bin`;
+      fileName ||  path.basename(url.split("?")[0]).replaceAll('%20',"") ||`file_${Date.now()}.bin`;
     finalName = finalName.replace(/[^a-zA-Z0-9.\-_]/g, "_");
     const outPath = path.join(dir, finalName);
     const writer = fs.createWriteStream(outPath);
