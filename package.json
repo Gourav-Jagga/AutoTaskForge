@@ -1,0 +1,24 @@
+{
+  "name": "autotaskforge",
+  "version": "1.0.0",
+  "description": "AutoTaskForge is a growing set of personal automation scripts designed to replace repetitive manual work. It includes tools for scraping data, performing mass file operations, running cleanup tasks, organizing content, bulk downloads, and various small utilities that make life easier.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "recomdnld": "node src/main/djpunjab/recommendedSongsDownload.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gourav-Jagga/AutoTaskForge.git"
+  },
+  "author": "gourav jagga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gourav-Jagga/AutoTaskForge/issues"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "cheerio": "^1.1.2"
+  },
+  "homepage": "https://github.com/Gourav-Jagga/AutoTaskForge#readme"
+}
